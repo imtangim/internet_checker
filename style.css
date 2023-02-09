@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -11,5 +11,21 @@ body{
     background: #fde3f3;
 }
 .popup{
+    width: 450px;
+    border-radius: 5px;
+    padding: 13px 17px 20px;
     background: #fff;
+    display: flex;
+    border-top: 3px solid #ea4d67;
+    box-shadow: 0 10px 25px rgba(52, 87, 220, 0.1);
+}
+.popup .icon i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #ea4d67;
+
 }
