@@ -9,7 +9,7 @@ const olstatus = document.querySelector(".status h2 ");
 
 let isOnline =true, intervalId,timer=10;
 const check_connection = async ()=>{
-    olstatus.innerHTML = `Status: <b style = "transition: all 1s ease-in;">Online</b>`;
+    olstatus.innerHTML = `Status: <b>Online</b>`;
     try {
         const response = await fetch("https://jsonplaceholder.typicode.com/posts");
         //200 and 300, the network connection is considered online
