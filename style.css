@@ -11,6 +11,33 @@ body {
     background: #fde3f3;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: rgb(252, 2, 252);
+    font-weight: 500;
+
+}
+.container.offline{
+    visibility: hidden;
+}
+.container.show{
+    visibility: visible;
+
+}
+.container .status h2 b{
+    color: #09e243;
+}
+.container .status{
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 10px 25px rgba(13, 17, 34, 0.1);
+    background: #f3cbe4;
+}
 .popup {
     position: absolute;
     width: 450px;
@@ -84,7 +111,10 @@ body {
 }
 
 @media screen and (max-width:510px) {
-
+    .container{
+        font-size: 0.6rem;
+        
+    }
     .popup {
         width: 350px;
     }
