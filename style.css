@@ -49,4 +49,11 @@ body{
 .popup .reconnect{
     border: none;
     outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 9px 15px;
+    border-radius: 4px;
+    background: #5372f0;
 }
