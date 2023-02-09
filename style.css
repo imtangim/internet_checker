@@ -11,21 +11,42 @@ body{
     background: #fde3f3;
 }
 .popup{
+    position: absolute;
     width: 450px;
+    left: 50%;
+    top: 0;
     border-radius: 5px;
     padding: 13px 17px 20px;
     background: #fff;
     display: flex;
     border-top: 3px solid #ea4d67;
+    transform: translateX(-50%);
     box-shadow: 0 10px 25px rgba(52, 87, 220, 0.1);
+
 }
 .popup .icon i{
     width: 40px;
     height: 40px;
     display: flex;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 1.2rem;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     background: #ea4d67;
 
+}
+.popup .title{
+    font-size: 1.2rem;
+}
+.popup .desc{
+    color: #474747;
+    margin: 3px 0 10px;
+    font-size: 1.04rem;
+}
+
+.popup .reconnect{
+    border: none;
+    outline: none;
 }
